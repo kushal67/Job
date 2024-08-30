@@ -1,0 +1,28 @@
+# Node modules for the client (frontend)
+client/node_modules/
+
+# Node modules for the backend
+backend/node_modules/
+
+# Ignore environment variable files
+.env
+client/.env
+backend/.env
+
+# Build and cache files for the client (optional, if you don't want to track these)
+client/build/
+client/.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS or editor-related files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore coverage reports if using testing tools
+coverage/
